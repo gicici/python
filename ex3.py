@@ -1,0 +1,6 @@
+print("We will count the stars")
+print("Stars", 25+14/5)
+print("What is 11-3?", 11-3)
+print("Is it greater?", 5 >-2)
+print(3 + 2 <5-7)
+print("Is it greater or equal?", 5<= -2)
