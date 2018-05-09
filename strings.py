@@ -8,10 +8,14 @@ s = "My name is Lucy"
 #below is an example of indexing
 print(s)
 print(s[4])
-#this is how slicing works grabs from the index declared till the end
+#this is how slicing works grabs from the  one index declared till the end
 print(s[1:])
-#this is grabbing everything till the fourth index
+#this is grabbing from everything upto the fourth index
 print(s[:4])
+print(s[:])#grabs everything 
+print(s[:-1])#-1 means it grabs everything except the last letter
+print(s[::1])#grabs everything in the step size of one 
+print(s[::-1])#this is writing backwards/reversing a string
 #example of concentination
 print(s + " Gicici")
 #reassign variables
@@ -26,10 +30,11 @@ print(s.upper())
 print(s.split('u'))
 #this is insrting another string inside
 p = 'This'
-print("Insert my string here: %s" %(p))
-#This is cutting off floating point numbers inshort to the nearest decimal place
+print("Insert my string here: %s" %(p)) #uses str function
+print("Insert my string here: %r" %(p)) # uses the repr function
+#This is cutting off floating point numbers inshort to the nearest decimal place i.e three decimal places
 print("This is a floating point number %1.3f" %(13.4555))
 #passing in many variables
-print('First %s:, Second %s, Third %s' %('Hi','to','you'))
+print('First %s:, Second %s, Third %s' %('Hi','to','you')) #want to assign variuables in order of how they're called
 #formatting variables
-print('First {v}: Second {v}'.format( v ="This"))
+print('First {v}: Second {v}'.format( v ="This")) #want to ssign variables mutiple times this the method to use.

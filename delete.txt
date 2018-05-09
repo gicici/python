@@ -1,0 +1,4 @@
+<form action="{{ route('roles.destroy', $role->id) }}" method="DELETE">
+	{{ csrf_field() }}
+	<button type="submit">Delete</button>
+</form>
